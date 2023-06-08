@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$binary": {
+      "base64": "wkt/R/UCrWUQeE3yFjLeuA==",
+      "subType": "03"
+    }
+  },
+  "name": "Exóticas",
+  "_class": "com.irb.plantas.model.Category"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "pUPY0mZcmOQBzOwFGjOvuw==",
+      "subType": "03"
+    }
+  },
+  "name": "Delicadas",
+  "_class": "com.irb.plantas.model.Category"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+      "subType": "03"
+    }
+  },
+  "name": "Clasicas",
+  "_class": "com.irb.plantas.model.Category"
+}]

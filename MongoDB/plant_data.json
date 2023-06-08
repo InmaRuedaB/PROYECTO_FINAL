@@ -1,0 +1,369 @@
+[{
+  "_id": {
+    "$binary": {
+      "base64": "gEvsnbJxigrtrkJ3qe1Klw==",
+      "subType": "03"
+    }
+  },
+  "name": "Rosa",
+  "color": "Rojo",
+  "price": "9.68",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+        "subType": "03"
+      }
+    },
+    "name": "Clasicas"
+  },
+  "photo": "https://www.jardineriaon.com/wp-content/uploads/2017/03/rosa-roja-1.jpg",
+  "family": "Rosaceae",
+  "stock": 0,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "Kk9bJ3AQP8mE9TCeWlmtig==",
+      "subType": "03"
+    }
+  },
+  "name": "Hortensia",
+  "color": "Rosa",
+  "price": "9.48",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "wkt/R/UCrWUQeE3yFjLeuA==",
+        "subType": "03"
+      }
+    },
+    "name": "Exóticas"
+  },
+  "photo": "https://verdecora.es/blog/wp-content/uploads/2022/05/hortensia-maceta.jpg",
+  "family": "Hydrangeaceae",
+  "stock": 6,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "tkR95ruoF+XRrrogf3GVig==",
+      "subType": "03"
+    }
+  },
+  "name": "CorazÃ³n sangrante",
+  "color": "Rojo",
+  "price": "25.5",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "wkt/R/UCrWUQeE3yFjLeuA==",
+        "subType": "03"
+      }
+    },
+    "name": "Exóticas"
+  },
+  "photo": "https://www.floresyplantas.net/wp-content/uploads/lamprocapnos-spectabilis.jpg",
+  "family": "Papaveraceae",
+  "stock": 4,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "dkU0z1xz8CXoSzvVnEc7gg==",
+      "subType": "03"
+    }
+  },
+  "name": "Flor del cerezo",
+  "color": "Blanco",
+  "price": "21.41",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "pUPY0mZcmOQBzOwFGjOvuw==",
+        "subType": "03"
+      }
+    },
+    "name": "Delicadas"
+  },
+  "photo": "https://www.rutadelacera.es/wp-content/uploads/2022/07/Sin-titulo-1_0011_FLOR-CEREZO.jpg",
+  "family": "Lamprocapnos",
+  "stock": -6,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "XE850XA+G+U9dwm5KU6Jpg==",
+      "subType": "03"
+    }
+  },
+  "name": "Peonias",
+  "color": "Rosa",
+  "price": "13.48",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "wkt/R/UCrWUQeE3yFjLeuA==",
+        "subType": "03"
+      }
+    },
+    "name": "Exóticas"
+  },
+  "photo": "https://m.media-amazon.com/images/I/61tOW687ljS.jpg",
+  "family": "Paeoniaceae",
+  "stock": 16,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "eURvWqB812muN8ZYKbrHhw==",
+      "subType": "03"
+    }
+  },
+  "name": "Lirio",
+  "color": "Blanco",
+  "price": "16.49",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+        "subType": "03"
+      }
+    },
+    "name": "Clasicas"
+  },
+  "photo": "https://www.floraqueen.es/blog/wp-content/uploads/sites/4/2014/10/giglio.jpg",
+  "family": "Liliaceae",
+  "stock": 21,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "UksAKiDrG8W1RYARDw+diA==",
+      "subType": "03"
+    }
+  },
+  "name": "Dalia",
+  "color": "Naranja",
+  "price": "24.23",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+        "subType": "03"
+      }
+    },
+    "name": "Clasicas"
+  },
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/9/91/DahliaDahlstarSunsetPink.jpg",
+  "family": "Asteraceae",
+  "stock": 8,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "AkKS62v4aHE371N1+I2/sA==",
+      "subType": "03"
+    }
+  },
+  "name": "Nardo",
+  "color": "Blanco",
+  "price": "12.84",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+        "subType": "03"
+      }
+    },
+    "name": "Clasicas"
+  },
+  "photo": "https://www.jardineriaon.com/wp-content/uploads/2018/07/Nardo-Polianthes-tuberosa.jpg",
+  "family": "Asparagaceae",
+  "stock": 0,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "ukWUVjnoDjhRO5S5udHquA==",
+      "subType": "03"
+    }
+  },
+  "name": "Gardenia",
+  "color": "Blanco",
+  "price": "15.46",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "wkt/R/UCrWUQeE3yFjLeuA==",
+        "subType": "03"
+      }
+    },
+    "name": "Exóticas"
+  },
+  "photo": "https://cdn.pixabay.com/photo/2013/09/03/19/43/gardenia-178719_1280.jpg",
+  "family": "RubiÃ¡ceas",
+  "stock": 71,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "GkibSt9Ht6aAwKGNjCewjw==",
+      "subType": "03"
+    }
+  },
+  "name": "Flor de loto",
+  "color": "Rosa",
+  "price": "27.87",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+        "subType": "03"
+      }
+    },
+    "name": "Clasicas"
+  },
+  "photo": "https://www.consumer.es/app/uploads/2004/05/flor-de-loto-e1653918982491.jpg",
+  "family": "Nelumbonaceae",
+  "stock": 3,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "Wkmpt40LqbDicdKw/xcNnQ==",
+      "subType": "03"
+    }
+  },
+  "name": "Clavel",
+  "color": "Rojo",
+  "price": "6.73",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+        "subType": "03"
+      }
+    },
+    "name": "Clasicas"
+  },
+  "photo": "https://www.consumer.es/app/uploads/fly-images/14205/img_clavel-1200x550-cc.jpg",
+  "family": "Caryophyllaceae",
+  "stock": 55,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "OEipjRwbAqiUgBb/3zmVqQ==",
+      "subType": "03"
+    }
+  },
+  "name": "Amapola",
+  "color": "Rojo",
+  "price": "7.42",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "pUPY0mZcmOQBzOwFGjOvuw==",
+        "subType": "03"
+      }
+    },
+    "name": "Delicadas"
+  },
+  "photo": "https://www.elmueble.com/medio/2022/11/01/amapola_fb6a1da4_22111175552_1000x665.jpg",
+  "family": "Papaveraceae",
+  "stock": 9,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "lUJLBQlnctK+EfmJMs7hmA==",
+      "subType": "03"
+    }
+  },
+  "name": "Azalea",
+  "color": "Rosa",
+  "price": "20.2",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "wkt/R/UCrWUQeE3yFjLeuA==",
+        "subType": "03"
+      }
+    },
+    "name": "Exóticas"
+  },
+  "photo": "https://www.hogarmania.com/archivos/201104/azalea-portada-xl-1280x720x80xX.jpg",
+  "family": "Ericaceae",
+  "stock": 9,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "l0kYQgA/zNzCdWAYo1xbqQ==",
+      "subType": "03"
+    }
+  },
+  "name": "Girasol",
+  "color": "Amarillo",
+  "price": "5.89",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+        "subType": "03"
+      }
+    },
+    "name": "Clasicas"
+  },
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Girasol_2.jpg",
+  "family": "Asteraceae",
+  "stock": 14,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "EUZX6X5bONVniKXvGXFluw==",
+      "subType": "03"
+    }
+  },
+  "name": "Magnolia",
+  "color": "Rosa",
+  "price": "22.8",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "pUPY0mZcmOQBzOwFGjOvuw==",
+        "subType": "03"
+      }
+    },
+    "name": "Delicadas"
+  },
+  "photo": "https://www.hogarmania.com/archivos/202006/magnolia-soulangeanas-1280x720x80xX.jpg",
+  "family": "Magnoliaceae",
+  "stock": 23,
+  "_class": "com.irb.plantas.model.Plant"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "8kBaTg8YLblpVfJbJpORjw==",
+      "subType": "03"
+    }
+  },
+  "name": "Lantana",
+  "color": "Multicolor",
+  "price": "21.84",
+  "category": {
+    "_id": {
+      "$binary": {
+        "base64": "O0o5JGd29Jhi5Mcnp+5GnQ==",
+        "subType": "03"
+      }
+    },
+    "name": "Clasicas"
+  },
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lantana_camara_qtl1.jpg",
+  "family": "Verbenaceae",
+  "stock": 4,
+  "_class": "com.irb.plantas.model.Plant"
+}]
