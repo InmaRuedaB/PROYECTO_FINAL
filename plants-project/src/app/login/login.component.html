@@ -1,0 +1,56 @@
+<p-toast></p-toast>
+
+<div class ="row">
+	<div class="col-md-6 mx-auto p-0">
+		<div class="card">
+<div class="login-box">
+	<div class="login-snip">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Iniciar sesión</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Regístrate</label>
+		<div class="login-space">
+			<div class="login">
+				<div class="group">
+					<input id="loginPhone" type="text" class="input"  placeholder="Introduce tu teléfono" [(ngModel)]="loginPhone">
+				</div>
+				<div class="group">
+					<input id="loginPass" type="password" class="input" data-type="password" placeholder="Introduce tu contraseña" [(ngModel)]="loginPass">
+				</div>
+				<div class="group">
+					<input type="submit" id="logingClick" class="button" value="Iniciar sesión" (click)="loginUser()">
+				</div>
+				<div *ngIf="isLoginFailed" class="alert alert-danger" role="alert">
+					Teléfono o contraseña incorrectos
+				  </div>
+				<div class="hr"></div>
+				<div class="foot">
+					<a href="#">¿Olvidaste tu contraseña?</a>
+				</div>
+			</div>
+			<div class="sign-up-form">
+				<div class="group">
+					<input id="user" type="text" class="input" placeholder="Teléfono" [(ngModel)]="phone">
+				</div>
+				<div class="group">
+					<input id="name" type="text" class="input" placeholder="Nombre" [(ngModel)]="username">
+				</div>
+				<div class="group">
+					<input id="mail" type="text" class="input" placeholder="Correo electrónico" [(ngModel)]="mail">
+				</div>
+				<div class="group">
+					<input id="pass" type="password" class="input" data-type="password" placeholder="Contraseña" [(ngModel)]="pass">
+				</div>
+				<div class="group">
+					<input id="repitPass" type="password" class="input" data-type="password" placeholder="Repite la contraseña" [(ngModel)]="repitPass">
+				</div>
+				
+				<div class="group">
+					<input type="submit" class="button" value="Registrarme" (click)="createUser()">
+				</div>
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+</div>   
+</div>
+</div>
+</div>

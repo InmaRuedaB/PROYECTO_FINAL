@@ -1,0 +1,41 @@
+<p-toast></p-toast>
+<div class ="row">
+	<div class="col-md-6 mx-auto p-0">
+		<div class="card">
+<div class="login-box">
+	<div class="login-snip">
+		<div class="login-space">
+			<p-table [value]="flowers" [tableStyle]="{'min-width': '30rem'}" [scrollable]="true">
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Categoría</th>
+                        <th>Número de artículos</th>
+                        <th>Eliminar producto/s</th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-product>
+                    <tr>
+                        <td>{{product.name}}</td>
+                        <td>{{product.price | currency:'EUR'}}</td>
+                        <td>{{product.category.name}}</td>
+                        <td>{{product.count}}</td>
+                        <td><p-button (click)="deleteProduct(product)" icon="pi pi-trash"></p-button></td>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="summary">
+                    <div class="flex align-items-center justify-content-between">
+                        El total de su pedido es: {{getTotalPrice()}} €.
+                    </div>
+                </ng-template>
+            </p-table>
+		</div>
+	</div>
+</div>   
+</div>
+</div>
+</div>
+<div id="finCompra">
+    <p-button (click)="makePurchase()">Finalizar compra</p-button>
+</div>

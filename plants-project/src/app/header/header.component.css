@@ -1,0 +1,79 @@
+
+nav{
+    background-color: #ffffff !important;
+    color: black;
+}
+.nav-item{
+    padding:2px;
+    margin-left: 25px;
+    background-color:black ;
+    color: black;  
+    
+}
+
+#iSesionBtn {
+    margin-right: 50px;
+    background-color: rgb(27, 186, 83);
+}
+
+.p-ripple.p-element.p-button.p-component {
+    background: rgb(24, 181, 87);
+  }
+
+.navbar-nav{
+    margin-left: 20px;
+    /*margin-right: auto;*/
+    color: black;
+    
+}
+
+
+
+#logo {
+    margin-left: 20px;
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+#btnLogin {
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+}
+
+p{
+    /*margin-left: 20px;*/
+    font-style: oblique;
+    font-size: larger;
+}
+
+#navbarCollapse p-button {
+    margin-right: 10px;
+}
+
+#iSesionBtn i {
+    margin-right: 6px;
+}
+
+#cSesionBtn i {
+    margin-right: 6px;
+}
+
+#cartBtn i {
+    margin-right: 6px;
+}
+
+#cartBtn {
+    margin-right: 20px;
+}
+#cSesionBtn {
+    margin-right: 20px; 
+}
+
+.btnMenu button {
+    width: 250px;
+    border-radius: 2px;
+}
+
+
+

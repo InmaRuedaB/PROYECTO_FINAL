@@ -1,0 +1,52 @@
+<div class="flex justify-content-center mb-3">
+    <p-button label="Todas" (click)="changeCategory('Todas')"></p-button>
+    <p-button label="Clasicas" (click)="changeCategory('Clasicas')"></p-button>
+    <p-button label="Delicadas" (click)="changeCategory('Delicadas')"></p-button>
+    <p-button label="Exóticas" (click)="changeCategory('Exóticas')"></p-button>
+  </div>
+  <p-toast></p-toast>
+<p-table [value]="flowers"  [scrollable]="true" scrollDirection="both" 
+scrollHeight="500px">
+    <!--
+    <ng-template pTemplate="caption">
+        <div class="flex align-items-center justify-content-between">
+           Lista de flores clasicas
+            <p-button icon="pi pi-refresh"></p-button>
+        </div>
+    </ng-template>
+    -->
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Nombre</th>
+            <th>Foto</th>
+            <th>Precio</th>
+            <th>Categoría</th>
+            <th>Stock</th>
+            <th>Número de artículos</th>
+            <th>Añadir a la cesta</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-product>
+        <tr>
+            <td>{{product.name}}</td>
+            <td id="photoColumn"><p-image [src]="product.photo" [preview]="true" alt="Image" width="100">
+                <ng-template pTemplate="indicator">
+                    <i class="pi pi-check"></i>
+                </ng-template>
+            </p-image></td>
+            <td>{{product.price | currency:'EUR'}}</td>
+            <td>{{product.category.name}}</td>
+            <td><p-tag [value]="getStatusStock(product.stock)" [severity]="getSeverity(product.stock)"></p-tag></td>
+            <td id="counter">
+                <p-inputNumber id="countArticle" [(ngModel)]="product.count" [showButtons]="true" buttonLayout="horizontal" [disabled]="product.stock < 1" inputId="horizontal" spinnerMode="horizontal" [step]="1" [min]="0" [max]="product.stock"
+                decrementButtonClass="p-button-danger" incrementButtonClass="p-button-success" incrementButtonIcon="pi pi-plus" decrementButtonIcon="pi pi-minus" mode="decimal"></p-inputNumber>
+            </td>
+            <td><p-button [disabled]="product.stock < 1" (click)="addToCart(product)" icon="pi pi-cart-plus"></p-button></td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="summary">
+        <div class="flex align-items-center justify-content-between">
+            En total hay {{flowers ? flowers.length : 0 }} tipos de flores flores.
+        </div>
+    </ng-template>
+</p-table>
