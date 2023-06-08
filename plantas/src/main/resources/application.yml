@@ -1,0 +1,13 @@
+application:
+  security:
+    jwt:
+      base64Secret: Q29uIGVzdGUgcHJveWVjdG8gdm95IGEgY29nZXIgbGFzIGJhc2VzIHN1ZmljaWVudGVzIHBhcmEgcG9kZXIgaW5jb3Jwb3Jhcm1lIGFsIG11bmRvIGxhYm9yYWw=
+      expiration-seconds: 3600
+    login-endpoint: /auth/login
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/plantas
+      auto-index-creation: true
+      #uri: mongodb+srv://admin:0ljYL9sqTPuzuMQN@clusterprueba.2tyxn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
